@@ -1,0 +1,620 @@
+
+/*MEDIA QUERY START*/
+/*========================================================PHONE - Extra Small Device- XS */
+@media (max-width: 480px) {
+    /*======================= HEADER NAVBAR START==========================*/
+    .custom_navbar button{
+        border-color: #881c58;
+    }
+    .custom_navbar .navbar-toggle {
+        padding: 6px 4px;
+        margin-top: 25px;
+    }
+    .custom_navbar .navbar-toggle .icon-bar {
+        background-color: #881c58;
+    }
+    /*.custom_navmenu .navbar-collapse {
+        max-height: 380px;
+        height:365px; 
+        overflow-x: visible; 
+        padding-right: 0px; 
+        padding-left: 0px; 
+        border-top: 1px solid transparent; 
+        box-shadow: none; 
+        -webkit-overflow-scrolling: touch;
+    }*/
+    .custom_navmenu .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 0px; 
+        box-shadow: none;
+        -webkit-overflow-scrolling: touch;
+        border-radius: 20px 0 20px 0px;
+        border: none !important;
+        box-shadow: none;
+        background: #a01f62;
+        color: #fff !important;
+        position: absolute;
+        left: 40%;
+        top: 0px;
+        width: 55%;
+    }
+    .navbar-nav>li>a {
+        line-height: 15px !important;
+    }
+/*======================= HEADER NAVBAR END==========================*/ 
+    .quote_head {
+        margin: 20px 0px;
+    }
+    .good_questn {
+        margin-top: 10px;
+    }
+    .quote_head h3 {
+        font-size: 22px; 
+        margin-bottom:20px;
+    }
+    .quote_head h2 {
+        font-size: 20px;
+        margin: 5px 0; 
+    }
+    .fpage img{
+        width:100%;
+    }
+    .admin_demo{
+        margin-bottom:20px;
+    }
+    .active_menu {
+        height: 60px;
+        color: #fff !important;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #fff !important;
+    }
+    .patient_head {
+        text-align: left;
+        padding-left: 25px;
+    }
+    .driver_passenger img {
+        width: 35px;
+    }
+    .sec2_head3 span {
+        margin-left: 0px;
+        line-height: 20px;
+    }
+    .top_banner {
+        background-size: contain !important;
+        height: auto !important;
+        margin-top: 0;
+    }
+    .carousel-indicators {
+        bottom: -50px;
+    }
+    .res_image {
+        top: -40px !important;
+    }
+    .res_image img {
+        width: 100%;
+    }
+    .logo_image img {
+        width: 85px;
+        margin-top: 20px;
+    }
+    .logo6 {
+        width: 160px !important;
+    }
+    .driver_app iframe {
+        width: 100%;
+        height: 200px;
+    }
+    .driver_passenger {
+        border-bottom: none;
+    }
+    .middle_sections {
+        border-right: none;
+    }
+    .sec2_head3 {
+        font-size: 18px;
+        margin: 0px 0px 22px 25px;
+    }
+    .margin_50_auto {
+        min-height: 225px;
+        padding: 0 0 20px 0px;
+    }
+    .margin_60_auto, .margin_80_auto {
+        padding: 0 0 20px 0px;
+    }
+    .mid_subhead {
+        margin-left: 60px;
+    }
+    .top_section {
+        margin-top: 200px;
+    }
+    .slider_images {
+        margin-top: 40px;
+        margin-bottom: 90px !important;
+        margin-left: 0;
+    }
+    .call_sec2 {
+        top: 0px;
+    }
+    .foot_line {
+        display:none;
+    }
+    .call_features h2, .call_sec5 h2,{
+        margin-bottom: 0px;
+    }
+    .margin_50_auto {
+        padding: 20px 0;
+    }
+    #back-to-top {
+        bottom: 60px;
+        right: 85px;
+    }
+    .call_mail {
+        margin: 0px 8px 0px 0px;
+    }
+    .cab_phone {
+        width:100%;
+        float:left;
+    }
+    .mail-head-scn .navbar-default {
+        border-color: transparent;
+        position: relative; 
+        right: 0; 
+        top: 0; 
+        float: none;
+        margin-bottom: 0px;
+    }
+    .call_cab_nav {
+      margin-top: 0px; 
+    }
+    .call_main_head .navbar-default {
+        border: none !important;
+        border-color: transparent !important;
+    }
+    .call_cab_nav ul li {
+        width:100%;
+    }
+    .call_cab_nav {
+        padding:0px 20px;
+    }
+    .social_follow img {
+        width: 35px;
+        height: 35px;
+    }
+    .left_list p {
+        float:right;
+    }
+    .call_features p {
+        width: 90%;
+    }
+    .call_features span {
+        width:10%;
+    }
+    .right_pad_5 {
+         padding-right: 0; 
+    }
+    .left_pad_5 {
+         padding-left: 0; 
+    }
+    .call_feat_right {
+        text-align: left;
+    }
+    .call_feat_right span {
+        float: left;
+    }
+    .call_feat_right span img {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .call_fet_list {
+        float: right;
+    }
+    .feature_boarder {
+        border:none;
+        padding: 0px;
+    }
+    .feature_left{
+        padding: 0px; 
+    }
+    .call_cab_nav .navbar{
+        margin-bottom: 0px;
+    }
+    .top_margin_20 {
+        margin-top: 20px;
+    }
+    .top_margin_10 {
+        margin-top: 10px;
+    }
+    .driver_app img {
+        width: 100%;
+        height: 150px;
+    }
+    .pass_app{
+        padding-left: 15px;
+    }
+    .admin_demo{
+       width:100%; 
+    }
+    .enterprise_demo{
+       width:100%; 
+    }
+    .terms_service {
+        text-align: left;
+    }
+    .terms_con {
+        margin-bottom: 0px;
+    }
+    .demo_top_banner {
+        margin-top: 0px;
+    }
+
+    /*---------------*/
+    .top_banner{
+        background-size: cover;
+        height: 275px;
+    }
+    .top_head1 {
+        font-size: 17px;
+    }
+    .top_head2 {
+        font-size: 30px;
+    }
+    
+    .top_head3 {
+        margin: 10px 0;
+        min-height:auto;
+    }
+    .solutions_head {
+        font-size: 15px;
+        margin: 20px 0px;
+    }
+    /*-----------get quote*/
+    .call_ser_left {
+        text-align:left;
+    }
+    .service_input_left label:before {
+        position: absolute;
+        left: -25px;
+    }
+    .service_input_right label:before {
+        right: 0;
+        left: -25px;
+    }
+    .right_pad_0 {
+        padding-left: 0px;
+    }
+    .fpage {
+        text-align: center;
+    }
+
+}
+/*============================================*/
+/*========================================================i PAD - Small Device- SM */
+@media (min-width: 481px) and (max-width: 769px) {
+    .patient_head {
+        text-align: left;
+        padding-left: 25px;
+    }
+    .top_banner {
+        background-size: contain !important;
+        height: auto !important;
+    }
+    .slider_images {
+        margin-left: 0;
+        margin-top: 60px;
+        margin-bottom: 170px;
+    }
+    .res_image {
+        top: -90px;
+    }
+    .res_image img {
+        width: 100%;
+    }
+    .sec2_head3 {
+        font-size: 17px;
+    }
+    .top_section {
+        margin-top: 50px;
+    }
+    .mid_subhead {
+        margin-left: 30px;
+    }
+    .driver_passenger img {
+        width: 35px;
+    }
+    .sec2_head3 span {
+        margin-left: 0px;
+        line-height: 20px;
+    }
+    .solutions_head {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    .margin_50_auto {
+        min-height: 230px;
+        padding: 0px 0 25px 0px;
+    }
+    .margin_60_auto {
+        padding: 0 0 40px 0px;
+    }
+    .margin_80_auto {
+        padding: 0px 0 40px 0px;
+    } 
+    .driver_passenger p {
+        font-size: 12px;
+    }
+    #back-to-top {
+        bottom: 280px;
+        right: 35px;
+    }
+    .logo_image img {
+        width: 130px;
+    }
+    .ft-1 ul li {
+        margin: 5px 0 0 0;
+    }
+    .left_list p {
+        float:right;
+    }
+    .right_pad_5 {
+         padding-right: 0; 
+    }
+    .left_pad_5 {
+         padding-left: 0; 
+    }
+    .call_feat_right {
+        text-align: left;
+    }
+    .call_feat_right span img {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .feature_boarder {
+        border:none;
+        padding: 0px;
+    }
+    .feature_left{
+        padding: 0px; 
+    }
+
+    .top_margin_20 {
+        margin-top: -20px;
+    }
+    .call_cab_nav .nav>li>a  {
+        padding: 10px 7px;
+    }
+    .driver_app img {
+        width: 100%;
+        height: 200px;
+    }
+    .driver_app iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .pass_app{
+        padding-left: 15px;
+    }
+    .enterprise_demo{
+       width:100%; 
+    }
+    .admin_demo{
+        width: 100%;
+        margin: 20px 0px;
+        height: 340px; 
+    }
+    .web_demo {
+        padding-bottom: 0px;
+    }
+    .demo_head{
+        margin: 10px 0;
+    }
+    .demo_section {
+        padding:0 0 50px 0;
+    }
+    /*=====================*/
+    .service_input_left label:before  {
+        left: 15px;
+    }
+    .service_input_right label:before {
+        right: 0;
+        left: 15px;
+    }
+    .call_ser_left {
+        text-align: left;
+        padding-left: 50px; 
+    }
+    .call_ser_right {
+        padding-left: 50px;
+    }
+    .left_pad_0 {
+         padding-left: 15px; 
+    }
+    .call_cab_nav {
+        margin-top: 0px;
+    }
+    .top_head3 {        
+        font-size: 12px;
+        margin: 10px 0;
+        line-height: 19px;
+    }
+    .solution_list .top_head3 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+/*========================================================*/
+/*========================================================i PAD PRO - Middle Device- MD */
+@media (min-width: 770px) and (max-width: 1024px) {
+    .top_banner {
+        background-size: cover !important;
+        height: auto !important;
+    }
+    .top_section {
+        margin-top: 95px;
+        margin-left: 25px;
+    }
+    .slider_images {
+        margin-top: 95px !important;
+        margin-bottom: 130px !important ;
+    }
+    .mid_subhead {
+        margin-left: 50px;
+    }
+    .driver_app img {
+        width: 100%;
+        height: 200px;
+    }
+    .driver_app iframe {
+        width: 100%;
+        height: 200px;
+    }
+    .pass_app{
+        padding-left: 15px;
+    }
+    .enterprise_demo{
+       width:100%; 
+    }
+    .service_input_left label:before {
+        left: 410px;
+    }
+    .service_input_right label:before {
+        right: 400px;
+    }
+    .service_boarder {
+        left: 60px !important;
+        height: 355px;
+    }
+    .res_image img {
+        width: 50% !important;
+    }
+    /*.res_image {
+        top: -70px !important;
+    }*/
+    .res_image {
+        top: -55px !important;
+    }
+    .solutions_head {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    .top_head3 {
+        font-size: 12px !important;
+        margin: 10px 0;
+        line-height: 20px;
+    }
+    .solution_list .top_head3 {
+        font-size: 13px !important;
+        line-height: 20px;
+    }
+    .top_section {
+        margin-top: 100px !important;
+        margin-left: 25px !important;
+    }
+    .slider_images {
+        margin-left: 0px !important;
+    }
+}
+/*===================================================*/
+/*=================================FOR MOBILE TO IPAD*/
+@media (min-width: 320px) and (max-width: 1024px) {
+    .bottom_banner {
+        background-size: contain; 
+    }
+    .social_follow img {
+        width:40px;
+        height:40px;
+    }
+    .top_head1 {
+        font-size: 20px !important;
+    }
+    .top_head2 {
+        font-size: 20px !important;
+    } 
+    .call_req {
+        margin-top: 15px;
+    }
+    .call_sec6 p {
+        width: 100%;
+    }
+    
+    .driver_passenger p {
+        line-height: 20px;
+    }
+    .call_sec5 {
+        padding: 0;
+    }
+    .call_features {
+        padding: 30px 0px;
+    }
+    .call_sec6{
+        padding: 0px;
+    }
+    .foot_line {
+        left: 0px;
+    }
+    .home_get_quote  {
+        top: 150px;
+    }
+    .home_get_quote img, .get_quote_strip img{
+        width: auto !important;
+        height:50px;
+    }     
+}
+@media screen and (min-width: 768px){
+    .carousel-indicators {
+        bottom: -50px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    
+}
+@media (min-width: 1080px) and (max-width: 1920px){
+
+}
+
+/*================================== SPECIAL DEVICE */
+@media (min-width: 769px) and (max-width: 1366px) {
+    .top_banner {
+        background-size: cover;
+        height: 580px;
+    }
+    .slider_images {
+        margin-top: 125px;
+        margin-bottom: 50px;
+    }
+    .top_section {
+        margin-top: 120px;
+        margin-left: 95px;
+    }
+    .res_image {
+        top: -90px;
+    }
+    .res_image img{
+        width: 60%;
+    }
+    .call_sec2 {
+        top: -25px;
+    }
+    .top_head1 {
+        font-size: 28px;
+    }
+    .top_head2 {
+        font-size: 33px;
+    }
+    .top_head3{
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    .call_req {
+        margin-top: 20px;
+    }
+    .home_get_quote {
+        top: 250px;
+    }
+    .home_get_quote img {
+        width: 35px;
+    }
+}
+/*===================================================*/
